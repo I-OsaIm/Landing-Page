@@ -9,7 +9,7 @@
     line-height: 1.6;
   }
   
-  header.hero-section {
+  header#hero-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,12 +21,12 @@
     padding: 20px;
   }
   
-  .hero-section h1 {
+  #hero-section h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
   }
   
-  .hero-section p {
+  #hero-section p {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
   }
@@ -126,4 +126,30 @@
     background: #111;
     color: white;
     font-size: 0.9rem;
+  }
+
+  .navbar{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    height: 50px;
+    max-width: 100%;
+    
+    margin: auto;
+   }
+
+  .navbar #Logo{
+    object-fit: contain;
+    height: 100px;
+    width: 100px;
+    padding-left: 10px;
+  }
+  .navbar .links{
+    object-fit: contain;
+    color:green;
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 15px 16px;
+    
   }
